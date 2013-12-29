@@ -50,7 +50,8 @@ You have to suggest and implement data structure to our music store(nested hashs
 	8. Search songs
 	9. Quit 
 
-* 5. Show Artists - example:
+* Show Artists - example:
+
 	MrWhite(Rap)
 		albums:
 			"hard album" - 2 songs
@@ -59,7 +60,8 @@ You have to suggest and implement data structure to our music store(nested hashs
 		albums:
 			"Inferno" -2 songs
 
-* 6. Show Albums - example:
+* Show Albums - example:
+
 	hard album:
 		first song
 		second song
@@ -71,7 +73,8 @@ You have to suggest and implement data structure to our music store(nested hashs
 		hard song
 		mega hard song
 		
-* 7. Serach Artist by music type
+* Serach Artist by music type
+
 	Please write music type?
 	Rap # input Rap
 	MrWhite(Rap)
@@ -79,7 +82,9 @@ You have to suggest and implement data structure to our music store(nested hashs
 			"hard album" - 2 songs
 			"street child" -3 songs
 	
-* 8. Write song name(or part)
+* Search songs
+
+	Write song name(or part)
 	song #type song	
 	Find songs:
 		first song(hard album - MrWhite)

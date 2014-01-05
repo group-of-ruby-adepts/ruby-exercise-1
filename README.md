@@ -35,70 +35,58 @@ Step two:
 Please not read if you didn't make first step.
 
 Great you done part one. You know loops, conditions, sample array, and important/sample methods.
-I'm not sure this step is good now. We will be learning more about arrays and hashs.
+I'm not sure this step is good now. We will be learning more about arrays and hash.
 
-You have to suggest and implement data structure to our music store(nested hashs and arrays). New menu will be hint also:
+I decide to chenge this step to few smaller to not make big jump.
 
-	What do you want to do? 
-	1. Add Artist
-	2. Add Album to Artist
-	3. Remove Artist(with all albums)
-	4. Remove Album
-	5. Show Artists
-	6. Show Albums
-	7. Serach Artist by music kind
-	8. Search songs
-	9. Quit 
+Music store with only album names... not good. We need add to our data(array) also album songs and change everything to serve this so:
 
-Show Artists - example:
+1. add also songs after album( "Add album") with options add songs to existing album
+2. remove album with all songs( "Remove Album" )
+3. show also songs("Show Albums")
+4. add new menu option to remove songs from albums or rebuild second menu option to include submenu with two options... remove album remove song from album
 
-	MrWhite(Rap)
-		albums:
-			"hard album" - 2 songs
-			"street child" -3 songs
-	Metalica(Metal)
-		albums:
-			"Inferno" -2 songs
-
-Show Albums - example:
-
-	hard album:
-		first song
-		second song
-	street child:
-		coke and casino
-		trouble with programming
-		tabasko
-	inferno:
-		hard song
-		mega hard song
-		
-Serach Artist by music type
-
-	Please write music type?
-	Rap # input Rap
-	MrWhite(Rap)
-		albums:
-			"hard album" - 2 songs
-			"street child" -3 songs
-	
-Search songs
-
-	Write song name(or part)
-	song #input song	
-	Find songs:
-		first song(hard album - MrWhite)
-		second song(hard album - MrWhite)
-		hard song(inferno - Metalica)
-		mega hard song(inferno - Metalica)
-
-	
 <dl>
   <dt>Hints</dt>
-  <dd>Artist have be uniq</dd>
-  <dd>artist have music type not album</dd>
-  <dd>point 4 can remove more then one albums if have the same name</dd>
+  <dd>to implement this data use nasted arrays/hash(or both mixed)</dd>
+  <dd>album should be still uniqe but songs could have the same name differents album</dd>
 </dl>
 
 Step three:
 -------------
+
+Please not read if you didn't make second step because you can create chaos in your head;)
+
+Now our music store looks better but good to know albums artists. please implement also artist in our data structure. 
+
+Lets think a little about it. We can add artist to album but better will be add album/albums to artist because one artist can have a lot of albums.
+You need make also changes to serve it:
+
+1. add artist before album( "Add album") - if artist exist add to him other album
+2. add options to remove artist
+3. show also artist ("Show Albums") -capitalize list to show correct structure so show albums option can look:
+```
+jackson
+	thriler
+		song 1
+		song 2
+		song 3
+		...
+	bad
+		song 1
+		...
+MrWhite
+	album_one
+		song 1
+		song 2
+		...
+```
+
+<dl>
+  <dt>Hints</dt>
+  <dd>to implement this data use nasted arrays/hash(or both mixed)</dd>
+  <dd>artist should be uniqe but albums could have the same name to differen artist but one artist can't have two the same name</dd>
+  <dd>if you remove artist you also remove all him albums</dd>
+  <dd>album structure should stay not change</dd>
+</dl>
+

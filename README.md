@@ -66,20 +66,20 @@ You need make also changes to serve it:
 2. add options to remove artist
 3. show also artist ("Show Albums") -capitalize list to show correct structure so show albums option can look:
 ```
-jackson
-	thriler
-		song 1
-		song 2
-		song 3
-		...
-	bad
-		song 1
-		...
-MrWhite
-	album_one
-		song 1
-		song 2
-		...
+  jackson
+    thriler
+      song 1
+      song 2
+      song 3
+      ...
+    bad
+      song 1
+      ...
+  MrWhite
+    album_one
+      song 1
+      song 2
+      ...
 ```
 
 <dl>

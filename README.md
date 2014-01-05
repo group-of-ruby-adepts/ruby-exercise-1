@@ -52,6 +52,7 @@ Music store with only album names... not good. We need add to our data(array) al
   <dd>album should be still uniqe but songs could have the same name differents album</dd>
 </dl>
 
+
 Step three:
 -------------
 
@@ -65,21 +66,22 @@ You need make also changes to serve it:
 1. add artist before album( "Add album") - if artist exist add to him other album
 2. add options to remove artist
 3. show also artist ("Show Albums") -capitalize list to show correct structure so show albums option can look:
-```
-  jackson
-    thriler
-      song 1
-      song 2
-      song 3
-      ...
-    bad
-      song 1
-      ...
-  MrWhite
-    album_one
-      song 1
-      song 2
-      ...
+
+```ruby
+	jackson
+		thriler
+			song 1
+			song 2
+			song 3
+			...
+		bad
+			song 1
+			...
+	MrWhite
+		album_one
+			song 1
+			song 2
+			...
 ```
 
 <dl>

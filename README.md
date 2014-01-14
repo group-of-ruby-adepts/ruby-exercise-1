@@ -53,7 +53,7 @@ Music store with only album names... not good. We need add to our data(array) al
 </dl>
 
 
-Step three:
+Step three(or it could be also step 4... your choose):
 -------------
 
 Please not read if you didn't make second step because you can create chaos in your head;)
@@ -92,3 +92,15 @@ You need make also changes to serve it:
   <dd>album structure should stay not change</dd>
 </dl>
 
+Step four:
+-------------
+
+if you make this step before step 3 then step 3 will(should) be easier.
+
+good work but it's not look like should. You know conditions, loops, arrays, hashs, iterations, simple methods etc. Nice but this application look like spagetti... all things in one loop. Could you imagine this application if we will have 20-30 options in menu(not 6)? How we can find something and read this code? We can't...
+
+so now is good moment to learn  about class, module, creating methods, declaring methods visibility... please first read about it and think... 
+
+First you can input everything in one class and generate execute method which will be run our program. every options should be in own method.
+
+It's really important point... you need know what it is class, module, method... how working OOP to understand this language

@@ -104,3 +104,14 @@ so now is good moment to learn  about class, module, creating methods, declaring
 First you can input everything in one class and generate execute method which will be run our program. every options should be in own method.
 
 It's really important point... you need know what it is class, module, method... how working OOP to understand this language
+
+Step five:
+-------------
+
+Nice It should look better but we have to make a lot of more with this. But first one smaller step. 
+
+We should make something to store our data more then one application session. Data structure is perfect to store it in yaml. Yaml is important in ruby so good to learn it.
+
+So our application should load yaml file on start and save changes after any change( or before quit - decide which better). Also if we havent yaml application should first create it.
+
+application should load/create this file next to your application rb file but we not need know your music store so read about gitignore. It will be task to learn more about git.

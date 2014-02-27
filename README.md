@@ -115,3 +115,26 @@ We should make something to store our data more then one application session. Da
 So our application should load yaml file on start and save changes after any change( or before quit - decide which better). Also if we havent yaml application should first create it.
 
 application should load/create this file next to your application rb file but we not need know your music store so read about gitignore. It will be task to learn more about git.
+
+Step six:
+-------------
+
+Now could be difficulty because we have to make changes to full OOP. So our artist,album and song should have own classes. It will be a lot of changes so we can separate it to three steps:
+
+<b>Step a</b>
+separate only song. You have to:
+- create new class Song with 'name' instance variable. The best will be make it in new file.
+- change way how you add song to album(because now it's not string -> you have to generate new class instance)
+- show song
+- find (/check existing) song
+
+it should be only ~12 lines code. If you have any problem please ask because it's really important part.
+
+<b>Step b</b>
+separate album. (details comming soon)
+  
+
+<b>Step c</b>
+separate artist. (details comming soon)
+
+

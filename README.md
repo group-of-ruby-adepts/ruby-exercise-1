@@ -131,8 +131,12 @@ separate only song. You have to:
 it should be only ~12 lines code. If you have any problem please ask because it's really important part.
 
 <b>Step b</b>
-separate album. (details comming soon)
-  
+separate album. It will be more difficulty(more changes and data schema will be change). You have to:
+- create new class Album with 'name' and 'songs' instance variables. 'songs' variable should be array. It will change schema because prev hash key was name(now it will be 'name' instance variable) and hash value was songs array(now we have to store it inside songs instance variable)
+- methods like add_song/find_song/remove_song should be inside Album class
+- change way how you add/remove album
+- show album
+- find (/check existing) album
 
 <b>Step c</b>
 separate artist. (details comming soon)
